@@ -58,7 +58,7 @@ app.use(function(err, req, res, next) {
 
 
 //this is where we scrap the site for data
-app.get('/scrap', function(req, res){
+app.get('/', function(req, res){
     //
     url = 'http://www.bloomberg.com/markets/stocks/';
 
