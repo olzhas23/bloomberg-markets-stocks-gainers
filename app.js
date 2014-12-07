@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var cheerio = require('cheerio');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
+//app.use('/', routes);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
@@ -58,10 +58,12 @@ app.use(function(err, req, res, next) {
 
 
 //this is where we scrap the site for data
-app.get('/', function(req, res){
+app.use('/', function(req, res){
     //
     url = 'http://www.bloomberg.com/markets/stocks/';
-
+    var stock, price, change;
+    var json = { stock: "", price: "", change: ""};
+    
     request(url, function(error, response, html){
         if(!error){
             var $ = cheerio.load(html);
