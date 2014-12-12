@@ -31,6 +31,11 @@
             "change": "+0.76%"
         },
         {
+            "stock": "AT&T Inc",
+            "price": "32.71",
+            "change": "+0.68%"
+        },
+        {
             "stock": "UnitedHealth Group...",
             "price": "99.73",
             "change": "+0.65%"
@@ -41,14 +46,9 @@
             "change": "+0.60%"
         },
         {
-            "stock": "Visa Inc",
-            "price": "263.12",
-            "change": "+0.53%"
-        },
-        {
-            "stock": "Cisco Systems Inc",
-            "price": "26.99",
-            "change": "+0.45%"
+            "stock": "Microsoft Corp",
+            "price": "47.17",
+            "change": "+0.58%"
         },
         {
             "stock": "Shire PLC",
@@ -152,48 +152,53 @@
         },
         {
             "stock": "Kansai Electric Po...",
-            "price": "1,280.00",
-            "change": "+2.36%"
+            "price": "1,308.50",
+            "change": "+4.64%"
         },
         {
             "stock": "Takashimaya Co Ltd",
-            "price": "994.00",
-            "change": "+1.12%"
+            "price": "1,004.00",
+            "change": "+2.14%"
+        },
+        {
+            "stock": "Showa Denko KK",
+            "price": "182.00",
+            "change": "+1.68%"
         },
         {
             "stock": "Unitika Ltd",
-            "price": "63.00",
-            "change": "0.00%"
-        },
-        {
-            "stock": "Maruha Nichiro Cor...",
-            "price": "1,785.00",
-            "change": "-0.06%"
-        },
-        {
-            "stock": "Hitachi Ltd",
-            "price": "895.70",
-            "change": "-0.32%"
+            "price": "64.00",
+            "change": "+1.59%"
         },
         {
             "stock": "Isetan Mitsukoshi ...",
-            "price": "1,483.00",
-            "change": "-0.40%"
-        },
-        {
-            "stock": "ANA Holdings Inc",
-            "price": "299.00",
-            "change": "-0.47%"
+            "price": "1,506.00",
+            "change": "+1.14%"
         },
         {
             "stock": "Central Japan Rail...",
-            "price": "16,865.00",
-            "change": "-0.56%"
+            "price": "17,060.00",
+            "change": "+0.59%"
+        },
+        {
+            "stock": "Maruha Nichiro Cor...",
+            "price": "1,794.00",
+            "change": "+0.45%"
+        },
+        {
+            "stock": "Hitachi Ltd",
+            "price": "899.70",
+            "change": "+0.12%"
+        },
+        {
+            "stock": "ANA Holdings Inc",
+            "price": "299.60",
+            "change": "-0.27%"
         },
         {
             "stock": "Sekisui House Ltd",
-            "price": "1,540.50",
-            "change": "-0.71%"
+            "price": "1,544.00",
+            "change": "-0.48%"
         },
         {
             "stock": "JBS SA",
@@ -247,43 +252,43 @@
         },
         {
             "stock": "China Mengniu Dair...",
-            "price": "29.65",
-            "change": "+2.24%"
-        },
-        {
-            "stock": "Cathay Pacific Air...",
-            "price": "17.58",
-            "change": "+1.97%"
+            "price": "30.10",
+            "change": "+1.52%"
         },
         {
             "stock": "Ping An Insurance ...",
-            "price": "73.70",
-            "change": "+0.82%"
+            "price": "74.45",
+            "change": "+1.02%"
         },
         {
-            "stock": "Want Want China Ho...",
-            "price": "10.16",
-            "change": "+0.59%"
-        },
-        {
-            "stock": "Link REIT/The",
-            "price": "49.20",
-            "change": "+0.41%"
+            "stock": "Cathay Pacific Air...",
+            "price": "17.72",
+            "change": "+0.80%"
         },
         {
             "stock": "Power Assets Holdi...",
-            "price": "74.80",
-            "change": "+0.40%"
-        },
-        {
-            "stock": "Hong Kong & China ...",
-            "price": "17.76",
-            "change": "+0.34%"
+            "price": "75.35",
+            "change": "+0.74%"
         },
         {
             "stock": "Hang Seng Bank Ltd",
-            "price": "127.30",
-            "change": "+0.24%"
+            "price": "127.70",
+            "change": "+0.31%"
+        },
+        {
+            "stock": "Hong Kong & China ...",
+            "price": "17.78",
+            "change": "+0.11%"
+        },
+        {
+            "stock": "Link REIT/The",
+            "price": "49.25",
+            "change": "+0.10%"
+        },
+        {
+            "stock": "Sun Hung Kai Prope...",
+            "price": "113.80",
+            "change": "+0.09%"
         }
     ]
 }
