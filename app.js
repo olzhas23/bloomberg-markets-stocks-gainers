@@ -4,9 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var cheerio = require('cheerio');
-var request = require('request');
-var http = require('http');
+var mustache = require('mustache');
+
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -14,8 +13,16 @@ var users = require('./routes/users');
 var app = express();
 
 // view engine setup
+//app.set('views', path.join(__dirname, 'views'));
+//app.set('view engine', 'jade');
+
+app.set('view engine', 'mustache');
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+
+
+
+
+
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
@@ -61,43 +68,7 @@ app.use(function(err, req, res, next) {
 
 
 //this is where we scrap the site for data
-app.get('/scrap', function(req, res){
-    //
-    url = 'http://www.bloomberg.com/markets/stocks/';
-    var stock, price, change;
-    var json = { stock: "", price: "", change: ""};
-    
-    request(url, function(error, response, html){
-        if(!error){
-            var $ = cheerio.load(html);
 
-
-
-            $('.dual_border_data_table.right_margin tr').filter(function(){
-                var data = $(this);
-                stock = data.children().eq(0).text();        
-                
-                json.stock = stock;
-
-                price = data.children().eq(1).text();
-                json.price=price;
-
-                change=data.children().eq(2).text();
-
-                json.change=change;
-
-                
-
-
-            })
-
-        }
-
-        
-        })
-
-
-    });
 
 
 module.exports = app;

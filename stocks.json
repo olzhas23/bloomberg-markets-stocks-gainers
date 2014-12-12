@@ -1,0 +1,289 @@
+{
+    "array": [
+        {
+            "stock": "Home Depot Inc/The",
+            "price": "100.27",
+            "change": "+1.34%"
+        },
+        {
+            "stock": "McDonald's Corp",
+            "price": "90.97",
+            "change": "+1.08%"
+        },
+        {
+            "stock": "Wal-Mart Stores In...",
+            "price": "83.83",
+            "change": "+1.02%"
+        },
+        {
+            "stock": "Goldman Sachs Grou...",
+            "price": "193.54",
+            "change": "+0.80%"
+        },
+        {
+            "stock": "Intel Corp",
+            "price": "36.70",
+            "change": "+0.77%"
+        },
+        {
+            "stock": "JPMorgan Chase & C...",
+            "price": "61.14",
+            "change": "+0.76%"
+        },
+        {
+            "stock": "UnitedHealth Group...",
+            "price": "99.73",
+            "change": "+0.65%"
+        },
+        {
+            "stock": "Exxon Mobil Corp",
+            "price": "89.20",
+            "change": "+0.60%"
+        },
+        {
+            "stock": "Visa Inc",
+            "price": "263.12",
+            "change": "+0.53%"
+        },
+        {
+            "stock": "Cisco Systems Inc",
+            "price": "26.99",
+            "change": "+0.45%"
+        },
+        {
+            "stock": "Shire PLC",
+            "price": "4,565.00",
+            "change": "+3.07%"
+        },
+        {
+            "stock": "Legal & General Gr...",
+            "price": "246.60",
+            "change": "+2.20%"
+        },
+        {
+            "stock": "Carnival PLC",
+            "price": "2,789.00",
+            "change": "+1.64%"
+        },
+        {
+            "stock": "easyJet PLC",
+            "price": "1,668.00",
+            "change": "+1.52%"
+        },
+        {
+            "stock": "Dixons Carphone PL...",
+            "price": "435.90",
+            "change": "+1.47%"
+        },
+        {
+            "stock": "Intertek Group PLC",
+            "price": "2,220.00",
+            "change": "+1.23%"
+        },
+        {
+            "stock": "Next PLC",
+            "price": "6,545.00",
+            "change": "+1.16%"
+        },
+        {
+            "stock": "Petrofac Ltd",
+            "price": "724.00",
+            "change": "+0.98%"
+        },
+        {
+            "stock": "Persimmon PLC",
+            "price": "1,573.00",
+            "change": "+0.90%"
+        },
+        {
+            "stock": "Whitbread PLC",
+            "price": "4,605.00",
+            "change": "+0.79%"
+        },
+        {
+            "stock": "SAP SE",
+            "price": "56.71",
+            "change": "+2.42%"
+        },
+        {
+            "stock": "Deutsche Post AG",
+            "price": "26.58",
+            "change": "+1.62%"
+        },
+        {
+            "stock": "Volkswagen AG",
+            "price": "185.35",
+            "change": "+1.55%"
+        },
+        {
+            "stock": "Fresenius Medical ...",
+            "price": "60.22",
+            "change": "+1.54%"
+        },
+        {
+            "stock": "Muenchener Rueckve...",
+            "price": "164.18",
+            "change": "+1.25%"
+        },
+        {
+            "stock": "Henkel AG & Co KGa...",
+            "price": "90.14",
+            "change": "+1.12%"
+        },
+        {
+            "stock": "Continental AG",
+            "price": "172.14",
+            "change": "+1.04%"
+        },
+        {
+            "stock": "adidas AG",
+            "price": "58.19",
+            "change": "+0.77%"
+        },
+        {
+            "stock": "Deutsche Bank AG",
+            "price": "25.29",
+            "change": "+0.66%"
+        },
+        {
+            "stock": "Deutsche Telekom A...",
+            "price": "12.97",
+            "change": "+0.60%"
+        },
+        {
+            "stock": "Kansai Electric Po...",
+            "price": "1,280.00",
+            "change": "+2.36%"
+        },
+        {
+            "stock": "Takashimaya Co Ltd",
+            "price": "994.00",
+            "change": "+1.12%"
+        },
+        {
+            "stock": "Unitika Ltd",
+            "price": "63.00",
+            "change": "0.00%"
+        },
+        {
+            "stock": "Maruha Nichiro Cor...",
+            "price": "1,785.00",
+            "change": "-0.06%"
+        },
+        {
+            "stock": "Hitachi Ltd",
+            "price": "895.70",
+            "change": "-0.32%"
+        },
+        {
+            "stock": "Isetan Mitsukoshi ...",
+            "price": "1,483.00",
+            "change": "-0.40%"
+        },
+        {
+            "stock": "ANA Holdings Inc",
+            "price": "299.00",
+            "change": "-0.47%"
+        },
+        {
+            "stock": "Central Japan Rail...",
+            "price": "16,865.00",
+            "change": "-0.56%"
+        },
+        {
+            "stock": "Sekisui House Ltd",
+            "price": "1,540.50",
+            "change": "-0.71%"
+        },
+        {
+            "stock": "JBS SA",
+            "price": "11.97",
+            "change": "+5.09%"
+        },
+        {
+            "stock": "Banco do Brasil SA",
+            "price": "24.95",
+            "change": "+4.26%"
+        },
+        {
+            "stock": "Marfrig Global Foo...",
+            "price": "5.75",
+            "change": "+3.60%"
+        },
+        {
+            "stock": "Gol Linhas Aereas ...",
+            "price": "15.25",
+            "change": "+3.46%"
+        },
+        {
+            "stock": "Cosan Logistica SA",
+            "price": "2.84",
+            "change": "+3.27%"
+        },
+        {
+            "stock": "Tractebel Energia ...",
+            "price": "33.38",
+            "change": "+2.87%"
+        },
+        {
+            "stock": "Marcopolo SA",
+            "price": "3.71",
+            "change": "+2.49%"
+        },
+        {
+            "stock": "Embraer SA",
+            "price": "24.15",
+            "change": "+2.42%"
+        },
+        {
+            "stock": "Banco Bradesco SA",
+            "price": "36.20",
+            "change": "+2.40%"
+        },
+        {
+            "stock": "Kroton Educacional...",
+            "price": "17.25",
+            "change": "+2.31%"
+        },
+        {
+            "stock": "China Mengniu Dair...",
+            "price": "29.65",
+            "change": "+2.24%"
+        },
+        {
+            "stock": "Cathay Pacific Air...",
+            "price": "17.58",
+            "change": "+1.97%"
+        },
+        {
+            "stock": "Ping An Insurance ...",
+            "price": "73.70",
+            "change": "+0.82%"
+        },
+        {
+            "stock": "Want Want China Ho...",
+            "price": "10.16",
+            "change": "+0.59%"
+        },
+        {
+            "stock": "Link REIT/The",
+            "price": "49.20",
+            "change": "+0.41%"
+        },
+        {
+            "stock": "Power Assets Holdi...",
+            "price": "74.80",
+            "change": "+0.40%"
+        },
+        {
+            "stock": "Hong Kong & China ...",
+            "price": "17.76",
+            "change": "+0.34%"
+        },
+        {
+            "stock": "Hang Seng Bank Ltd",
+            "price": "127.30",
+            "change": "+0.24%"
+        }
+    ]
+}

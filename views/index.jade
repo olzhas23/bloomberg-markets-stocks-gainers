@@ -3,3 +3,10 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  ul {{#records}}
+  	li {{stock}} 
+  	li {{price}} 
+  	li {{change}}
+  {{/records}}
+  script(src="/javascripts/jquery-1.8.2.js")
+  
