@@ -116,7 +116,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/:slug', function(req, res){
 
-	fs.readFile('public/data/stocks.json', handleFile)
+	fs.readFile('./public/data/stocks.json', handleFile)
 
 	// Write the callback function
 	function handleFile(err, data) {
@@ -166,7 +166,7 @@ client.connect(function(err) {
      return console.error('could not connect to postgresq',err);
    }
 
-   fs.readFile('stocks.json', handleFile)
+   fs.readFile('./public/data/stocks.json', handleFile)
    	function handleFile(err, data) {
 	    
 	    if (err) throw err

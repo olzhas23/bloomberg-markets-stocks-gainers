@@ -1,0 +1,287 @@
+[
+    {
+        "stock": "Chevron Corp",
+        "price": "111.01",
+        "change": "+1.82%"
+    },
+    {
+        "stock": "EI du Pont de Nemo...",
+        "price": "73.33",
+        "change": "+1.52%"
+    },
+    {
+        "stock": "Goldman Sachs Grou...",
+        "price": "193.77",
+        "change": "+1.13%"
+    },
+    {
+        "stock": "Home Depot Inc/The",
+        "price": "101.74",
+        "change": "+1.07%"
+    },
+    {
+        "stock": "JPMorgan Chase & C...",
+        "price": "62.10",
+        "change": "+1.00%"
+    },
+    {
+        "stock": "Boeing Co/The",
+        "price": "126.72",
+        "change": "+0.84%"
+    },
+    {
+        "stock": "Microsoft Corp",
+        "price": "47.86",
+        "change": "+0.72%"
+    },
+    {
+        "stock": "Merck & Co Inc",
+        "price": "59.39",
+        "change": "+0.70%"
+    },
+    {
+        "stock": "Procter & Gamble C...",
+        "price": "92.49",
+        "change": "+0.53%"
+    },
+    {
+        "stock": "International Busi...",
+        "price": "158.47",
+        "change": "+0.50%"
+    },
+    {
+        "stock": "Tullow Oil PLC",
+        "price": "424.20",
+        "change": "+6.85%"
+    },
+    {
+        "stock": "Tesco PLC",
+        "price": "185.40",
+        "change": "+5.46%"
+    },
+    {
+        "stock": "Randgold Resources...",
+        "price": "4,431.00",
+        "change": "+4.41%"
+    },
+    {
+        "stock": "WM Morrison Superm...",
+        "price": "176.20",
+        "change": "+3.65%"
+    },
+    {
+        "stock": "BHP Billiton PLC",
+        "price": "1,377.50",
+        "change": "+3.57%"
+    },
+    {
+        "stock": "Fresnillo PLC",
+        "price": "739.00",
+        "change": "+3.28%"
+    },
+    {
+        "stock": "Antofagasta PLC",
+        "price": "744.50",
+        "change": "+3.12%"
+    },
+    {
+        "stock": "Royal Dutch Shell ...",
+        "price": "2,170.00",
+        "change": "+3.09%"
+    },
+    {
+        "stock": "Dixons Carphone PL...",
+        "price": "461.60",
+        "change": "+3.01%"
+    },
+    {
+        "stock": "Aviva PLC",
+        "price": "495.00",
+        "change": "+3.00%"
+    },
+    {
+        "stock": "Henkel AG & Co KGa...",
+        "price": "89.10",
+        "change": "+2.31%"
+    },
+    {
+        "stock": "Beiersdorf AG",
+        "price": "67.96",
+        "change": "+0.97%"
+    },
+    {
+        "stock": "Continental AG",
+        "price": "173.47",
+        "change": "+0.86%"
+    },
+    {
+        "stock": "SAP SE",
+        "price": "57.65",
+        "change": "+0.85%"
+    },
+    {
+        "stock": "Linde AG",
+        "price": "152.26",
+        "change": "+0.72%"
+    },
+    {
+        "stock": "Fresenius Medical ...",
+        "price": "60.55",
+        "change": "+0.68%"
+    },
+    {
+        "stock": "Merck KGaA",
+        "price": "78.39",
+        "change": "+0.35%"
+    },
+    {
+        "stock": "Volkswagen AG",
+        "price": "185.37",
+        "change": "+0.32%"
+    },
+    {
+        "stock": "Allianz SE",
+        "price": "138.27",
+        "change": "+0.25%"
+    },
+    {
+        "stock": "ThyssenKrupp AG",
+        "price": "21.10",
+        "change": "+0.23%"
+    },
+    {
+        "stock": "Mitsubishi Motors ...",
+        "price": "1,133.00",
+        "change": "+6.09%"
+    },
+    {
+        "stock": "Tokyo Electron Ltd",
+        "price": "9,116.00",
+        "change": "+5.94%"
+    },
+    {
+        "stock": "IHI Corp",
+        "price": "621.00",
+        "change": "+5.79%"
+    },
+    {
+        "stock": "Sumitomo Realty & ...",
+        "price": "4,155.00",
+        "change": "+5.68%"
+    },
+    {
+        "stock": "NH Foods Ltd",
+        "price": "2,610.00",
+        "change": "+5.37%"
+    },
+    {
+        "stock": "Hino Motors Ltd",
+        "price": "1,570.00",
+        "change": "+5.30%"
+    },
+    {
+        "stock": "Fukuoka Financial ...",
+        "price": "636.00",
+        "change": "+5.12%"
+    },
+    {
+        "stock": "Shinsei Bank Ltd",
+        "price": "210.00",
+        "change": "+5.00%"
+    },
+    {
+        "stock": "Mitsubishi Estate ...",
+        "price": "2,566.50",
+        "change": "+4.95%"
+    },
+    {
+        "stock": "Isuzu Motors Ltd",
+        "price": "1,446.00",
+        "change": "+4.93%"
+    },
+    {
+        "stock": "Rossi Residencial ...",
+        "price": "2.36",
+        "change": "+8.26%"
+    },
+    {
+        "stock": "Vale SA",
+        "price": "21.53",
+        "change": "+7.87%"
+    },
+    {
+        "stock": "Bradespar SA",
+        "price": "13.52",
+        "change": "+7.81%"
+    },
+    {
+        "stock": "Vale SA",
+        "price": "18.68",
+        "change": "+7.67%"
+    },
+    {
+        "stock": "Cia Siderurgica Na...",
+        "price": "5.64",
+        "change": "+6.62%"
+    },
+    {
+        "stock": "EcoRodovias Infrae...",
+        "price": "10.20",
+        "change": "+6.14%"
+    },
+    {
+        "stock": "Localiza Rent a Ca...",
+        "price": "35.60",
+        "change": "+5.64%"
+    },
+    {
+        "stock": "Eletropaulo Metrop...",
+        "price": "8.76",
+        "change": "+5.54%"
+    },
+    {
+        "stock": "Centrais Eletricas...",
+        "price": "7.03",
+        "change": "+4.93%"
+    },
+    {
+        "stock": "BRF SA",
+        "price": "64.26",
+        "change": "+4.49%"
+    },
+    {
+        "stock": "AIA Group Ltd",
+        "price": "42.50",
+        "change": "+3.41%"
+    },
+    {
+        "stock": "China Mengniu Dair...",
+        "price": "28.90",
+        "change": "+3.40%"
+    },
+    {
+        "stock": "Bank of Communicat...",
+        "price": "6.80",
+        "change": "+2.56%"
+    },
+    {
+        "stock": "Tingyi Cayman Isla...",
+        "price": "16.96",
+        "change": "+2.54%"
+    },
+    {
+        "stock": "Lenovo Group Ltd",
+        "price": "10.16",
+        "change": "+2.52%"
+    },
+    {
+        "stock": "Hutchison Whampoa ...",
+        "price": "90.00",
+        "change": "+2.45%"
+    },
+    {
+        "stock": "China Resources Po...",
+        "price": "20.15",
+        "change": "+2.08%"
+    }
+]
