@@ -16,6 +16,7 @@
     "cheerio": "latest",
     "request": "latest",
     "mustache": "latest",
-	"pg-copy-streams": "latest"
+	"pg-copy-streams": "latest",
+	"pg": "latest"
   }
 }
