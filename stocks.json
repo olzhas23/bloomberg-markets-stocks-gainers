@@ -1,49 +1,54 @@
 {
     "array": [
         {
-            "stock": "McDonald's Corp",
-            "price": "91.09",
-            "change": "+2.67%"
+            "stock": "Chevron Corp",
+            "price": "106.02",
+            "change": "+4.25%"
         },
         {
             "stock": "UnitedHealth Group...",
-            "price": "98.40",
-            "change": "+2.66%"
+            "price": "99.14",
+            "change": "+3.43%"
         },
         {
-            "stock": "Chevron Corp",
-            "price": "104.30",
-            "change": "+2.56%"
+            "stock": "McDonald's Corp",
+            "price": "91.65",
+            "change": "+3.30%"
         },
         {
             "stock": "Exxon Mobil Corp",
-            "price": "88.22",
-            "change": "+2.09%"
+            "price": "89.02",
+            "change": "+3.02%"
         },
         {
             "stock": "Coca-Cola Co/The",
-            "price": "41.22",
-            "change": "+2.05%"
+            "price": "41.55",
+            "change": "+2.87%"
+        },
+        {
+            "stock": "American Express C...",
+            "price": "90.44",
+            "change": "+2.49%"
         },
         {
             "stock": "EI du Pont de Nemo...",
-            "price": "69.50",
-            "change": "+1.28%"
+            "price": "70.26",
+            "change": "+2.39%"
         },
         {
-            "stock": "Intel Corp",
-            "price": "35.96",
-            "change": "+1.12%"
+            "stock": "JPMorgan Chase & C...",
+            "price": "59.77",
+            "change": "+2.29%"
         },
         {
-            "stock": "Goldman Sachs Grou...",
-            "price": "184.72",
-            "change": "+0.77%"
+            "stock": "Visa Inc",
+            "price": "259.08",
+            "change": "+2.24%"
         },
         {
-            "stock": "Pfizer Inc",
-            "price": "30.90",
-            "change": "+0.75%"
+            "stock": "Home Depot Inc/The",
+            "price": "98.94",
+            "change": "+1.94%"
         },
         {
             "stock": "Tullow Oil PLC",
@@ -92,48 +97,53 @@
         },
         {
             "stock": "Infineon Technolog...",
-            "price": "8.42",
-            "change": "+3.44%"
+            "price": "8.51",
+            "change": "+4.57%"
         },
         {
             "stock": "RWE AG",
-            "price": "26.66",
-            "change": "+2.76%"
+            "price": "26.80",
+            "change": "+3.30%"
         },
         {
             "stock": "K+S AG",
-            "price": "22.86",
-            "change": "+2.12%"
-        },
-        {
-            "stock": "E.ON SE",
-            "price": "13.99",
-            "change": "+2.01%"
+            "price": "22.99",
+            "change": "+2.72%"
         },
         {
             "stock": "Muenchener Rueckve...",
-            "price": "161.77",
-            "change": "+1.89%"
+            "price": "162.92",
+            "change": "+2.61%"
         },
         {
             "stock": "BASF SE",
-            "price": "69.57",
-            "change": "+1.87%"
+            "price": "69.98",
+            "change": "+2.47%"
         },
         {
             "stock": "Deutsche Telekom A...",
-            "price": "12.97",
-            "change": "+1.82%"
+            "price": "13.04",
+            "change": "+2.42%"
         },
         {
-            "stock": "adidas AG",
-            "price": "55.81",
-            "change": "+1.66%"
+            "stock": "E.ON SE",
+            "price": "14.02",
+            "change": "+2.19%"
+        },
+        {
+            "stock": "Beiersdorf AG",
+            "price": "66.95",
+            "change": "+2.03%"
         },
         {
             "stock": "Allianz SE",
-            "price": "135.19",
-            "change": "+1.43%"
+            "price": "135.97",
+            "change": "+2.02%"
+        },
+        {
+            "stock": "adidas AG",
+            "price": "55.90",
+            "change": "+1.83%"
         },
         {
             "stock": "Chugai Pharmaceuti...",

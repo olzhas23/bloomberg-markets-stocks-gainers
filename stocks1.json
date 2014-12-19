@@ -1,0 +1,287 @@
+[
+    {
+        "stock": "Microsoft Corp",
+        "price": "47.52",
+        "change": "+3.89%"
+    },
+    {
+        "stock": "International Busi...",
+        "price": "157.68",
+        "change": "+3.78%"
+    },
+    {
+        "stock": "Goldman Sachs Grou...",
+        "price": "191.61",
+        "change": "+3.56%"
+    },
+    {
+        "stock": "Cisco Systems Inc",
+        "price": "27.65",
+        "change": "+3.13%"
+    },
+    {
+        "stock": "American Express C...",
+        "price": "93.17",
+        "change": "+3.02%"
+    },
+    {
+        "stock": "3M Co",
+        "price": "165.30",
+        "change": "+2.93%"
+    },
+    {
+        "stock": "JPMorgan Chase & C...",
+        "price": "61.48",
+        "change": "+2.86%"
+    },
+    {
+        "stock": "EI du Pont de Nemo...",
+        "price": "72.23",
+        "change": "+2.80%"
+    },
+    {
+        "stock": "Pfizer Inc",
+        "price": "31.97",
+        "change": "+2.73%"
+    },
+    {
+        "stock": "Old Mutual PLC",
+        "price": "189.90",
+        "change": "+5.68%"
+    },
+    {
+        "stock": "SABMiller PLC",
+        "price": "3,374.50",
+        "change": "+5.59%"
+    },
+    {
+        "stock": "Aberdeen Asset Man...",
+        "price": "431.40",
+        "change": "+5.58%"
+    },
+    {
+        "stock": "IMI PLC",
+        "price": "1,237.00",
+        "change": "+5.37%"
+    },
+    {
+        "stock": "ARM Holdings PLC",
+        "price": "975.50",
+        "change": "+4.89%"
+    },
+    {
+        "stock": "Tesco PLC",
+        "price": "175.80",
+        "change": "+4.55%"
+    },
+    {
+        "stock": "CRH PLC",
+        "price": "1,533.00",
+        "change": "+4.50%"
+    },
+    {
+        "stock": "International Cons...",
+        "price": "463.50",
+        "change": "+4.49%"
+    },
+    {
+        "stock": "Admiral Group PLC",
+        "price": "1,320.00",
+        "change": "+4.27%"
+    },
+    {
+        "stock": "London Stock Excha...",
+        "price": "2,216.00",
+        "change": "+3.99%"
+    },
+    {
+        "stock": "Deutsche Bank AG",
+        "price": "25.50",
+        "change": "+3.65%"
+    },
+    {
+        "stock": "Deutsche Telekom A...",
+        "price": "13.48",
+        "change": "+3.37%"
+    },
+    {
+        "stock": "HeidelbergCement A...",
+        "price": "58.12",
+        "change": "+3.18%"
+    },
+    {
+        "stock": "Volkswagen AG",
+        "price": "184.77",
+        "change": "+3.10%"
+    },
+    {
+        "stock": "SAP SE",
+        "price": "57.16",
+        "change": "+3.00%"
+    },
+    {
+        "stock": "Continental AG",
+        "price": "171.99",
+        "change": "+2.87%"
+    },
+    {
+        "stock": "Deutsche Boerse AG",
+        "price": "59.19",
+        "change": "+2.75%"
+    },
+    {
+        "stock": "E.ON SE",
+        "price": "14.38",
+        "change": "+2.60%"
+    },
+    {
+        "stock": "Bayerische Motoren...",
+        "price": "90.71",
+        "change": "+2.34%"
+    },
+    {
+        "stock": "Deutsche Post AG",
+        "price": "26.83",
+        "change": "+2.10%"
+    },
+    {
+        "stock": "Nippon Suisan Kais...",
+        "price": "388.00",
+        "change": "+7.18%"
+    },
+    {
+        "stock": "Toyo Seikan Group ...",
+        "price": "1,558.00",
+        "change": "+7.08%"
+    },
+    {
+        "stock": "Dentsu Inc",
+        "price": "5,020.00",
+        "change": "+6.92%"
+    },
+    {
+        "stock": "Marui Group Co Ltd",
+        "price": "1,074.00",
+        "change": "+6.87%"
+    },
+    {
+        "stock": "Tokyo Electric Pow...",
+        "price": "459.00",
+        "change": "+6.74%"
+    },
+    {
+        "stock": "Mitsubishi Logisti...",
+        "price": "1,862.00",
+        "change": "+6.46%"
+    },
+    {
+        "stock": "Sumco Corp",
+        "price": "1,698.00",
+        "change": "+5.99%"
+    },
+    {
+        "stock": "Keisei Electric Ra...",
+        "price": "1,431.00",
+        "change": "+5.92%"
+    },
+    {
+        "stock": "Japan Steel Works ...",
+        "price": "421.00",
+        "change": "+5.78%"
+    },
+    {
+        "stock": "SKY Perfect JSAT H...",
+        "price": "709.00",
+        "change": "+5.51%"
+    },
+    {
+        "stock": "Gol Linhas Aereas ...",
+        "price": "13.75",
+        "change": "+6.59%"
+    },
+    {
+        "stock": "Oi SA",
+        "price": "1.00",
+        "change": "+6.38%"
+    },
+    {
+        "stock": "Cia de Saneamento ...",
+        "price": "17.06",
+        "change": "+3.08%"
+    },
+    {
+        "stock": "Marfrig Global Foo...",
+        "price": "5.75",
+        "change": "+2.50%"
+    },
+    {
+        "stock": "Metalurgica Gerdau...",
+        "price": "10.91",
+        "change": "+2.44%"
+    },
+    {
+        "stock": "Localiza Rent a Ca...",
+        "price": "33.70",
+        "change": "+2.43%"
+    },
+    {
+        "stock": "Vale SA",
+        "price": "17.35",
+        "change": "+2.30%"
+    },
+    {
+        "stock": "Gerdau SA",
+        "price": "9.17",
+        "change": "+1.89%"
+    },
+    {
+        "stock": "Klabin SA",
+        "price": "13.78",
+        "change": "+1.77%"
+    },
+    {
+        "stock": "Bradespar SA",
+        "price": "12.54",
+        "change": "+1.62%"
+    },
+    {
+        "stock": "Tencent Holdings L...",
+        "price": "111.90",
+        "change": "+6.27%"
+    },
+    {
+        "stock": "Galaxy Entertainme...",
+        "price": "43.35",
+        "change": "+3.21%"
+    },
+    {
+        "stock": "Power Assets Holdi...",
+        "price": "73.40",
+        "change": "+2.44%"
+    },
+    {
+        "stock": "China Life Insuran...",
+        "price": "27.60",
+        "change": "+2.41%"
+    },
+    {
+        "stock": "CNOOC Ltd",
+        "price": "10.10",
+        "change": "+2.33%"
+    },
+    {
+        "stock": "China Shenhua Ener...",
+        "price": "22.35",
+        "change": "+2.29%"
+    },
+    {
+        "stock": "Sands China Ltd",
+        "price": "38.75",
+        "change": "+2.11%"
+    },
+    {
+        "stock": "Hutchison Whampoa ...",
+        "price": "87.85",
+        "change": "+2.09%"
+    }
+]
