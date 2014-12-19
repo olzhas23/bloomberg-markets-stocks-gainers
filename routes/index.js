@@ -174,7 +174,8 @@ client.connect(function(err) {
 	    obj = JSON.parse(data);	
 		var rData = {array:obj.array};
 		console.log(obj.length);
-   		for ( var i =1;i < obj.length; i++){
+		//Here i am setting 10 instead of obj.length, because of 30ms limit on Heroku.
+   		for ( var i =1;i < 10; i++){
   			var query = "INSERT INTO data (stockname,stockprice,stockchange, date) values ($1, $2, $3, $4)"
   			//console.log (obj[i].stock,obj[i].price, obj[i].change, Date());
    			client.query(query,[obj[i].stock,obj[i].price, obj[i].change, Date()], function(err, result) {
