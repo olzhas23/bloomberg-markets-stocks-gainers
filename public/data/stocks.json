@@ -1,53 +1,53 @@
 [
     {
         "stock": "Chevron Corp",
-        "price": "111.01",
-        "change": "+1.82%"
+        "price": "111.74",
+        "change": "+2.49%"
     },
     {
         "stock": "EI du Pont de Nemo...",
-        "price": "73.33",
-        "change": "+1.52%"
+        "price": "73.56",
+        "change": "+1.83%"
     },
     {
         "stock": "Goldman Sachs Grou...",
-        "price": "193.77",
-        "change": "+1.13%"
+        "price": "194.94",
+        "change": "+1.74%"
+    },
+    {
+        "stock": "JPMorgan Chase & C...",
+        "price": "62.26",
+        "change": "+1.26%"
+    },
+    {
+        "stock": "Merck & Co Inc",
+        "price": "59.63",
+        "change": "+1.10%"
     },
     {
         "stock": "Home Depot Inc/The",
         "price": "101.74",
-        "change": "+1.07%"
-    },
-    {
-        "stock": "JPMorgan Chase & C...",
-        "price": "62.10",
-        "change": "+1.00%"
+        "change": "+1.06%"
     },
     {
         "stock": "Boeing Co/The",
-        "price": "126.72",
-        "change": "+0.84%"
+        "price": "126.92",
+        "change": "+0.99%"
     },
     {
         "stock": "Microsoft Corp",
-        "price": "47.86",
-        "change": "+0.72%"
-    },
-    {
-        "stock": "Merck & Co Inc",
-        "price": "59.39",
-        "change": "+0.70%"
-    },
-    {
-        "stock": "Procter & Gamble C...",
-        "price": "92.49",
-        "change": "+0.53%"
+        "price": "47.96",
+        "change": "+0.93%"
     },
     {
         "stock": "International Busi...",
-        "price": "158.47",
-        "change": "+0.50%"
+        "price": "159.02",
+        "change": "+0.85%"
+    },
+    {
+        "stock": "Procter & Gamble C...",
+        "price": "92.50",
+        "change": "+0.54%"
     },
     {
         "stock": "Tullow Oil PLC",
@@ -101,28 +101,28 @@
     },
     {
         "stock": "Henkel AG & Co KGa...",
-        "price": "89.10",
-        "change": "+2.31%"
+        "price": "89.15",
+        "change": "+2.36%"
     },
     {
         "stock": "Beiersdorf AG",
-        "price": "67.96",
-        "change": "+0.97%"
-    },
-    {
-        "stock": "Continental AG",
-        "price": "173.47",
-        "change": "+0.86%"
+        "price": "68.00",
+        "change": "+1.03%"
     },
     {
         "stock": "SAP SE",
-        "price": "57.65",
+        "price": "57.69",
+        "change": "+0.92%"
+    },
+    {
+        "stock": "Continental AG",
+        "price": "173.44",
         "change": "+0.85%"
     },
     {
         "stock": "Linde AG",
-        "price": "152.26",
-        "change": "+0.72%"
+        "price": "152.34",
+        "change": "+0.77%"
     },
     {
         "stock": "Fresenius Medical ...",
@@ -131,23 +131,23 @@
     },
     {
         "stock": "Merck KGaA",
-        "price": "78.39",
-        "change": "+0.35%"
+        "price": "78.44",
+        "change": "+0.42%"
     },
     {
         "stock": "Volkswagen AG",
-        "price": "185.37",
-        "change": "+0.32%"
-    },
-    {
-        "stock": "Allianz SE",
-        "price": "138.27",
-        "change": "+0.25%"
+        "price": "185.48",
+        "change": "+0.38%"
     },
     {
         "stock": "ThyssenKrupp AG",
-        "price": "21.10",
-        "change": "+0.23%"
+        "price": "21.11",
+        "change": "+0.28%"
+    },
+    {
+        "stock": "Allianz SE",
+        "price": "138.14",
+        "change": "+0.16%"
     },
     {
         "stock": "Mitsubishi Motors ...",
@@ -201,13 +201,13 @@
     },
     {
         "stock": "Rossi Residencial ...",
-        "price": "2.36",
-        "change": "+8.26%"
+        "price": "2.39",
+        "change": "+9.63%"
     },
     {
         "stock": "Vale SA",
-        "price": "21.53",
-        "change": "+7.87%"
+        "price": "18.78",
+        "change": "+8.24%"
     },
     {
         "stock": "Bradespar SA",
@@ -215,39 +215,34 @@
         "change": "+7.81%"
     },
     {
-        "stock": "Vale SA",
-        "price": "18.68",
-        "change": "+7.67%"
-    },
-    {
         "stock": "Cia Siderurgica Na...",
-        "price": "5.64",
-        "change": "+6.62%"
+        "price": "5.70",
+        "change": "+7.75%"
     },
     {
         "stock": "EcoRodovias Infrae...",
-        "price": "10.20",
-        "change": "+6.14%"
+        "price": "10.27",
+        "change": "+6.87%"
     },
     {
         "stock": "Localiza Rent a Ca...",
-        "price": "35.60",
-        "change": "+5.64%"
-    },
-    {
-        "stock": "Eletropaulo Metrop...",
-        "price": "8.76",
-        "change": "+5.54%"
-    },
-    {
-        "stock": "Centrais Eletricas...",
-        "price": "7.03",
-        "change": "+4.93%"
+        "price": "35.89",
+        "change": "+6.50%"
     },
     {
         "stock": "BRF SA",
-        "price": "64.26",
-        "change": "+4.49%"
+        "price": "64.40",
+        "change": "+4.72%"
+    },
+    {
+        "stock": "Banco do Brasil SA",
+        "price": "24.35",
+        "change": "+4.51%"
+    },
+    {
+        "stock": "Eletropaulo Metrop...",
+        "price": "8.64",
+        "change": "+4.10%"
     },
     {
         "stock": "AIA Group Ltd",
