@@ -15,6 +15,7 @@
     "jade": "~1.6.0",
     "cheerio": "latest",
     "request": "latest",
-    "mustache": "latest"
+    "mustache": "latest",
+	"pg-copy-streams": "latest"
   }
 }
