@@ -173,7 +173,7 @@ client.connect(function(err) {
 	    
 	    obj = JSON.parse(data);	
 		var rData = {array:obj.array};
-		console.log(obj.array.length);
+		//console.log(obj.array.length);
    		for ( var i =1;i < obj.array.length; i++){
   			var query = "INSERT INTO data (stockname,stockprice,stockchange, date) values ($1, $2, $3, $4)"
   			//console.log (obj.array[i].stock,obj.array[i].price, obj.array[i].change, Date());
