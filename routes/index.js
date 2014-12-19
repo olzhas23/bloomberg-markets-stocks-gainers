@@ -176,7 +176,7 @@ client.connect(function(err) {
 		console.log(obj.length);
    		for ( var i =1;i < obj.length; i++){
   			var query = "INSERT INTO data (stockname,stockprice,stockchange, date) values ($1, $2, $3, $4)"
-  			console.log (obj[i].stock,obj[i].price, obj[i].change, Date());
+  			//console.log (obj[i].stock,obj[i].price, obj[i].change, Date());
    			client.query(query,[obj[i].stock,obj[i].price, obj[i].change, Date()], function(err, result) {
         	if (err) {
             	return console.err("could not complete query", err);
@@ -184,7 +184,7 @@ client.connect(function(err) {
         //client.end();
         
         
-console.log("Data inserted sucsesfully!");
+//console.log("Data inserted sucsesfully!");
    }
    )}
 };
