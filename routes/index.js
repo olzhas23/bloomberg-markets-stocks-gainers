@@ -10,8 +10,12 @@ var pg = require('pg');
 var server = http.createServer(router);
 var mustache = require('mustache');
 
+//Here we will get the data from bloomberg website
+router.get('/', function(req,res, next){
 
-router.get('/', function(req, res, next) {
+	 res.render('index', { title: 'Bloomberg Market Indexes' });
+});
+router.get('/stocks', function(req, res, next) {
    url = 'http://www.bloomberg.com/markets/stocks/';
  
     request(url, function(error, response , html){
@@ -131,7 +135,7 @@ router.get('/:slug', function(req, res){
 	}
 
 });
-
+//here is our login info to postgress on Heroku, needs to be move to another file for better security, but it is ok for now
 var USER = "dtbufbkeqjknrs";
 var PW = "qbq1t6x-YbKofBaiGvPAzvvUbd";
 var HOST = "ec2-54-204-35-132.compute-1.amazonaws.com";
@@ -142,8 +146,8 @@ var conString = "pg://" + USER + ":" + PW + "@" + HOST + ":" + PORT + "/"
     + DATABASE + "?ssl=true";
 var client = new pg.Client(conString);
 
-var copyFrom = require ('pg-copy-streams').from;
-
+//pg-copy streams allows us to stream our stocks.json file directly to our database, needs to be reviewed latter
+var copyFrom = require ('pg-copy-streams').from; 
 
 // Now you can start querying your database. Here is a sample. 
 /*
@@ -154,14 +158,8 @@ client.connect(function(err, client, done) {
   fileStream.pipe(stream).on('finish', done).on('error', done);
 });*/
 
+//Here we INSERT our data to PostreSQL, WHITE database
 client.connect(function(err) {
-
-
-   
-
-
-
-   
    if (err) { 
      return console.error('could not connect to postgresq',err);
    }
@@ -170,15 +168,15 @@ client.connect(function(err) {
    	function handleFile(err, data) {
 	    
 	    if (err) throw err
-	    
+	    //here we parse stocks.json
 	    obj = JSON.parse(data);	
 		var rData = {array:obj.array};
-		console.log(obj.length);
-		//Here i am setting 10 instead of obj.length, because of 30ms limit on Heroku.
-   		for ( var i =1;i < 10; i++){
-  			var query = "INSERT INTO data (stockname,stockprice,stockchange, date) values ($1, $2, $3, $4)"
+		//console.log(obj.length);
+		//push stocks.json to database
+   		for ( var i =1;i < obj.length; i++){
+  			var query = "INSERT INTO data (id,stockname,stockprice,stockchange, date) values ($1, $2, $3, $4, $5)"
   			//console.log (obj[i].stock,obj[i].price, obj[i].change, Date());
-   			client.query(query,[obj[i].stock,obj[i].price, obj[i].change, Date()], function(err, result) {
+   			client.query(query,[i,obj[i].stock,obj[i].price, obj[i].change, Date()], function(err, result) {
         	if (err) {
             	return console.err("could not complete query", err);
         	} 

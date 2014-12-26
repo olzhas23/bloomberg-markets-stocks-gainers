@@ -1,53 +1,53 @@
 [
     {
         "stock": "Chevron Corp",
-        "price": "111.74",
-        "change": "+2.49%"
+        "price": "112.93",
+        "change": "+3.58%"
+    },
+    {
+        "stock": "Exxon Mobil Corp",
+        "price": "93.64",
+        "change": "+2.72%"
     },
     {
         "stock": "EI du Pont de Nemo...",
-        "price": "73.56",
-        "change": "+1.83%"
-    },
-    {
-        "stock": "Goldman Sachs Grou...",
-        "price": "194.94",
-        "change": "+1.74%"
-    },
-    {
-        "stock": "JPMorgan Chase & C...",
-        "price": "62.26",
-        "change": "+1.26%"
-    },
-    {
-        "stock": "Merck & Co Inc",
-        "price": "59.63",
-        "change": "+1.10%"
+        "price": "73.29",
+        "change": "+1.47%"
     },
     {
         "stock": "Home Depot Inc/The",
-        "price": "101.74",
-        "change": "+1.06%"
+        "price": "101.93",
+        "change": "+1.25%"
     },
     {
-        "stock": "Boeing Co/The",
-        "price": "126.92",
-        "change": "+0.99%"
+        "stock": "Merck & Co Inc",
+        "price": "59.58",
+        "change": "+1.02%"
     },
     {
-        "stock": "Microsoft Corp",
-        "price": "47.96",
-        "change": "+0.93%"
+        "stock": "Goldman Sachs Grou...",
+        "price": "193.28",
+        "change": "+0.87%"
+    },
+    {
+        "stock": "JPMorgan Chase & C...",
+        "price": "61.93",
+        "change": "+0.73%"
     },
     {
         "stock": "International Busi...",
-        "price": "159.02",
-        "change": "+0.85%"
+        "price": "158.51",
+        "change": "+0.53%"
     },
     {
-        "stock": "Procter & Gamble C...",
-        "price": "92.50",
-        "change": "+0.54%"
+        "stock": "Boeing Co/The",
+        "price": "126.23",
+        "change": "+0.45%"
+    },
+    {
+        "stock": "Microsoft Corp",
+        "price": "47.66",
+        "change": "+0.29%"
     },
     {
         "stock": "Tullow Oil PLC",
@@ -101,53 +101,53 @@
     },
     {
         "stock": "Henkel AG & Co KGa...",
-        "price": "89.15",
-        "change": "+2.36%"
+        "price": "89.19",
+        "change": "+2.41%"
     },
     {
         "stock": "Beiersdorf AG",
-        "price": "68.00",
-        "change": "+1.03%"
-    },
-    {
-        "stock": "SAP SE",
-        "price": "57.69",
-        "change": "+0.92%"
+        "price": "68.02",
+        "change": "+1.05%"
     },
     {
         "stock": "Continental AG",
-        "price": "173.44",
-        "change": "+0.85%"
+        "price": "173.57",
+        "change": "+0.92%"
     },
     {
-        "stock": "Linde AG",
-        "price": "152.34",
-        "change": "+0.77%"
+        "stock": "SAP SE",
+        "price": "57.66",
+        "change": "+0.88%"
     },
     {
         "stock": "Fresenius Medical ...",
-        "price": "60.55",
-        "change": "+0.68%"
+        "price": "60.60",
+        "change": "+0.77%"
     },
     {
-        "stock": "Merck KGaA",
-        "price": "78.44",
-        "change": "+0.42%"
+        "stock": "Linde AG",
+        "price": "152.32",
+        "change": "+0.76%"
     },
     {
         "stock": "Volkswagen AG",
-        "price": "185.48",
-        "change": "+0.38%"
+        "price": "185.53",
+        "change": "+0.41%"
+    },
+    {
+        "stock": "Merck KGaA",
+        "price": "78.43",
+        "change": "+0.40%"
     },
     {
         "stock": "ThyssenKrupp AG",
-        "price": "21.11",
-        "change": "+0.28%"
+        "price": "21.12",
+        "change": "+0.35%"
     },
     {
         "stock": "Allianz SE",
-        "price": "138.14",
-        "change": "+0.16%"
+        "price": "138.27",
+        "change": "+0.25%"
     },
     {
         "stock": "Mitsubishi Motors ...",
@@ -235,9 +235,9 @@
         "change": "+4.72%"
     },
     {
-        "stock": "Banco do Brasil SA",
-        "price": "24.35",
-        "change": "+4.51%"
+        "stock": "Centrais Eletricas...",
+        "price": "7.01",
+        "change": "+4.63%"
     },
     {
         "stock": "Eletropaulo Metrop...",
