@@ -13,7 +13,7 @@ var mustache = require('mustache');
 //Here we will get the data from bloomberg website
 router.get('/', function(req,res, next){
 
-	 res.render('index', { title: 'Bloomberg Market Indexes' });
+	 res.render('home', { title: 'Bloomberg Market Indexes' });
 });
 router.get('/stocks', function(req, res, next) {
    url = 'http://www.bloomberg.com/markets/stocks/';
@@ -174,7 +174,7 @@ client.connect(function(err) {
 		//console.log(obj.length);
 		//push stocks.json to database
    		for ( var i =1;i < obj.length; i++){
-  			var query = "INSERT INTO data (id,stockname,stockprice,stockchange, date) values ($1, $2, $3, $4, $5)"
+  			var query = "INSERT INTO data (i,stockname,stockprice,stockchange,date) values ($1, $2, $3, $4,$5);"
   			//console.log (obj[i].stock,obj[i].price, obj[i].change, Date());
    			client.query(query,[i,obj[i].stock,obj[i].price, obj[i].change, Date()], function(err, result) {
         	if (err) {
