@@ -1,282 +1,282 @@
 [
     {
-        "stock": "Chevron Corp",
-        "price": "112.93",
-        "change": "+3.58%"
-    },
-    {
-        "stock": "Exxon Mobil Corp",
-        "price": "93.64",
-        "change": "+2.72%"
-    },
-    {
-        "stock": "EI du Pont de Nemo...",
-        "price": "73.29",
-        "change": "+1.47%"
-    },
-    {
         "stock": "Home Depot Inc/The",
-        "price": "101.93",
-        "change": "+1.25%"
-    },
-    {
-        "stock": "Merck & Co Inc",
-        "price": "59.58",
-        "change": "+1.02%"
-    },
-    {
-        "stock": "Goldman Sachs Grou...",
-        "price": "193.28",
-        "change": "+0.87%"
-    },
-    {
-        "stock": "JPMorgan Chase & C...",
-        "price": "61.93",
-        "change": "+0.73%"
+        "price": "104.97",
+        "change": "+0.67%"
     },
     {
         "stock": "International Busi...",
-        "price": "158.51",
-        "change": "+0.53%"
+        "price": "160.44",
+        "change": "+0.24%"
     },
     {
-        "stock": "Boeing Co/The",
-        "price": "126.23",
-        "change": "+0.45%"
+        "stock": "Walt Disney Co/The",
+        "price": "94.19",
+        "change": "-0.54%"
     },
     {
-        "stock": "Microsoft Corp",
-        "price": "47.66",
-        "change": "+0.29%"
+        "stock": "McDonald's Corp",
+        "price": "93.70",
+        "change": "-0.58%"
     },
     {
-        "stock": "Tullow Oil PLC",
-        "price": "424.20",
-        "change": "+6.85%"
+        "stock": "Exxon Mobil Corp",
+        "price": "92.45",
+        "change": "-0.61%"
     },
     {
-        "stock": "Tesco PLC",
-        "price": "185.40",
-        "change": "+5.46%"
+        "stock": "Pfizer Inc",
+        "price": "31.15",
+        "change": "-0.73%"
     },
     {
-        "stock": "Randgold Resources...",
-        "price": "4,431.00",
-        "change": "+4.41%"
+        "stock": "Johnson & Johnson",
+        "price": "104.57",
+        "change": "-0.75%"
     },
     {
-        "stock": "WM Morrison Superm...",
-        "price": "176.20",
-        "change": "+3.65%"
+        "stock": "Chevron Corp",
+        "price": "112.18",
+        "change": "-0.82%"
     },
     {
-        "stock": "BHP Billiton PLC",
-        "price": "1,377.50",
-        "change": "+3.57%"
+        "stock": "EI du Pont de Nemo...",
+        "price": "73.94",
+        "change": "-0.87%"
     },
     {
-        "stock": "Fresnillo PLC",
-        "price": "739.00",
-        "change": "+3.28%"
+        "stock": "Taylor Wimpey PLC",
+        "price": "137.80",
+        "change": "+2.68%"
     },
     {
-        "stock": "Antofagasta PLC",
-        "price": "744.50",
-        "change": "+3.12%"
+        "stock": "Barratt Developmen...",
+        "price": "471.00",
+        "change": "+2.59%"
     },
     {
-        "stock": "Royal Dutch Shell ...",
-        "price": "2,170.00",
-        "change": "+3.09%"
+        "stock": "Kingfisher PLC",
+        "price": "340.50",
+        "change": "+2.44%"
     },
     {
-        "stock": "Dixons Carphone PL...",
-        "price": "461.60",
-        "change": "+3.01%"
+        "stock": "Pearson PLC",
+        "price": "1,190.00",
+        "change": "+1.80%"
     },
     {
-        "stock": "Aviva PLC",
-        "price": "495.00",
-        "change": "+3.00%"
+        "stock": "Meggitt PLC",
+        "price": "519.00",
+        "change": "+1.76%"
     },
     {
-        "stock": "Henkel AG & Co KGa...",
-        "price": "89.19",
-        "change": "+2.41%"
+        "stock": "3i Group PLC",
+        "price": "450.20",
+        "change": "+1.67%"
     },
     {
-        "stock": "Beiersdorf AG",
-        "price": "68.02",
-        "change": "+1.05%"
+        "stock": "SABMiller PLC",
+        "price": "3,361.00",
+        "change": "+1.45%"
+    },
+    {
+        "stock": "Next PLC",
+        "price": "6,820.00",
+        "change": "+1.41%"
+    },
+    {
+        "stock": "Aberdeen Asset Man...",
+        "price": "432.20",
+        "change": "+1.38%"
+    },
+    {
+        "stock": "adidas AG",
+        "price": "57.62",
+        "change": "+1.75%"
+    },
+    {
+        "stock": "Commerzbank AG",
+        "price": "10.99",
+        "change": "+0.07%"
     },
     {
         "stock": "Continental AG",
-        "price": "173.57",
-        "change": "+0.92%"
-    },
-    {
-        "stock": "SAP SE",
-        "price": "57.66",
-        "change": "+0.88%"
-    },
-    {
-        "stock": "Fresenius Medical ...",
-        "price": "60.60",
-        "change": "+0.77%"
-    },
-    {
-        "stock": "Linde AG",
-        "price": "152.32",
-        "change": "+0.76%"
-    },
-    {
-        "stock": "Volkswagen AG",
-        "price": "185.53",
-        "change": "+0.41%"
-    },
-    {
-        "stock": "Merck KGaA",
-        "price": "78.43",
-        "change": "+0.40%"
-    },
-    {
-        "stock": "ThyssenKrupp AG",
-        "price": "21.12",
-        "change": "+0.35%"
+        "price": "175.55",
+        "change": "-0.32%"
     },
     {
         "stock": "Allianz SE",
-        "price": "138.27",
-        "change": "+0.25%"
+        "price": "137.35",
+        "change": "-0.87%"
     },
     {
-        "stock": "Mitsubishi Motors ...",
-        "price": "1,133.00",
-        "change": "+6.09%"
+        "stock": "Deutsche Boerse AG",
+        "price": "59.22",
+        "change": "-0.99%"
     },
     {
-        "stock": "Tokyo Electron Ltd",
-        "price": "9,116.00",
-        "change": "+5.94%"
+        "stock": "Bayerische Motoren...",
+        "price": "89.77",
+        "change": "-1.00%"
     },
     {
-        "stock": "IHI Corp",
-        "price": "621.00",
-        "change": "+5.79%"
+        "stock": "Daimler AG",
+        "price": "68.97",
+        "change": "-1.12%"
     },
     {
-        "stock": "Sumitomo Realty & ...",
-        "price": "4,155.00",
-        "change": "+5.68%"
+        "stock": "Beiersdorf AG",
+        "price": "67.42",
+        "change": "-1.13%"
     },
     {
-        "stock": "NH Foods Ltd",
-        "price": "2,610.00",
-        "change": "+5.37%"
+        "stock": "BASF SE",
+        "price": "69.88",
+        "change": "-1.27%"
     },
     {
-        "stock": "Hino Motors Ltd",
-        "price": "1,570.00",
-        "change": "+5.30%"
+        "stock": "Bayer AG",
+        "price": "113.00",
+        "change": "-1.62%"
     },
     {
-        "stock": "Fukuoka Financial ...",
-        "price": "636.00",
-        "change": "+5.12%"
+        "stock": "Toray Industries I...",
+        "price": "968.20",
+        "change": "+3.32%"
     },
     {
-        "stock": "Shinsei Bank Ltd",
-        "price": "210.00",
-        "change": "+5.00%"
+        "stock": "Nippon Kayaku Co L...",
+        "price": "1,508.00",
+        "change": "+1.82%"
     },
     {
-        "stock": "Mitsubishi Estate ...",
-        "price": "2,566.50",
-        "change": "+4.95%"
+        "stock": "Unitika Ltd",
+        "price": "62.00",
+        "change": "+1.64%"
+    },
+    {
+        "stock": "Nichirei Corp",
+        "price": "547.00",
+        "change": "+1.30%"
+    },
+    {
+        "stock": "Shiseido Co Ltd",
+        "price": "1,693.00",
+        "change": "+0.83%"
+    },
+    {
+        "stock": "Tokyo Dome Corp",
+        "price": "532.00",
+        "change": "+0.57%"
+    },
+    {
+        "stock": "UNY Group Holdings...",
+        "price": "613.00",
+        "change": "+0.49%"
+    },
+    {
+        "stock": "Yokohama Rubber Co...",
+        "price": "1,105.00",
+        "change": "+0.45%"
+    },
+    {
+        "stock": "Kawasaki Kisen Kai...",
+        "price": "325.00",
+        "change": "+0.31%"
     },
     {
         "stock": "Isuzu Motors Ltd",
-        "price": "1,446.00",
-        "change": "+4.93%"
+        "price": "1,481.50",
+        "change": "+0.24%"
     },
     {
-        "stock": "Rossi Residencial ...",
-        "price": "2.39",
-        "change": "+9.63%"
+        "stock": "Even Construtora e...",
+        "price": "5.44",
+        "change": "+2.64%"
     },
     {
-        "stock": "Vale SA",
-        "price": "18.78",
-        "change": "+8.24%"
+        "stock": "Cielo SA",
+        "price": "41.67",
+        "change": "+2.36%"
     },
     {
-        "stock": "Bradespar SA",
-        "price": "13.52",
-        "change": "+7.81%"
+        "stock": "Gafisa SA",
+        "price": "2.20",
+        "change": "+2.33%"
     },
     {
-        "stock": "Cia Siderurgica Na...",
-        "price": "5.70",
-        "change": "+7.75%"
+        "stock": "Qualicorp SA",
+        "price": "27.80",
+        "change": "+2.13%"
     },
     {
-        "stock": "EcoRodovias Infrae...",
-        "price": "10.27",
-        "change": "+6.87%"
+        "stock": "Gol Linhas Aereas ...",
+        "price": "15.18",
+        "change": "+1.27%"
     },
     {
-        "stock": "Localiza Rent a Ca...",
-        "price": "35.89",
-        "change": "+6.50%"
+        "stock": "Cia Hering",
+        "price": "20.25",
+        "change": "+1.25%"
     },
     {
-        "stock": "BRF SA",
-        "price": "64.40",
-        "change": "+4.72%"
+        "stock": "ALL - America Lati...",
+        "price": "5.06",
+        "change": "+1.00%"
     },
     {
         "stock": "Centrais Eletricas...",
-        "price": "7.01",
-        "change": "+4.63%"
+        "price": "8.18",
+        "change": "+0.86%"
     },
     {
-        "stock": "Eletropaulo Metrop...",
-        "price": "8.64",
-        "change": "+4.10%"
+        "stock": "Klabin SA",
+        "price": "14.59",
+        "change": "+0.62%"
     },
     {
-        "stock": "AIA Group Ltd",
-        "price": "42.50",
-        "change": "+3.41%"
+        "stock": "Cosan SA Industria...",
+        "price": "28.85",
+        "change": "+0.52%"
     },
     {
-        "stock": "China Mengniu Dair...",
-        "price": "28.90",
-        "change": "+3.40%"
+        "stock": "China Resources En...",
+        "price": "16.24",
+        "change": "+2.65%"
+    },
+    {
+        "stock": "China Life Insuran...",
+        "price": "30.45",
+        "change": "+2.18%"
     },
     {
         "stock": "Bank of Communicat...",
-        "price": "6.80",
-        "change": "+2.56%"
+        "price": "7.24",
+        "change": "+2.12%"
     },
     {
-        "stock": "Tingyi Cayman Isla...",
-        "price": "16.96",
-        "change": "+2.54%"
+        "stock": "Bank of China Ltd",
+        "price": "4.37",
+        "change": "+1.86%"
     },
     {
-        "stock": "Lenovo Group Ltd",
-        "price": "10.16",
-        "change": "+2.52%"
-    },
-    {
-        "stock": "Hutchison Whampoa ...",
-        "price": "90.00",
-        "change": "+2.45%"
+        "stock": "Industrial & Comme...",
+        "price": "5.66",
+        "change": "+1.80%"
     },
     {
         "stock": "China Resources Po...",
-        "price": "20.15",
-        "change": "+2.08%"
+        "price": "20.00",
+        "change": "+1.73%"
+    },
+    {
+        "stock": "China Construction...",
+        "price": "6.37",
+        "change": "+1.43%"
+    },
+    {
+        "stock": "Tingyi Cayman Isla...",
+        "price": "17.72",
+        "change": "+1.26%"
     }
 ]

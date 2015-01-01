@@ -11,11 +11,8 @@ var server = http.createServer(router);
 var mustache = require('mustache');
 
 //Here we will get the data from bloomberg website
-router.get('/', function(req,res, next){
 
-	 res.render('home', { title: 'Bloomberg Market Indexes' });
-});
-router.get('/stocks', function(req, res, next) {
+router.get('/', function(req, res, next) {
    url = 'http://www.bloomberg.com/markets/stocks/';
  
     request(url, function(error, response , html){
@@ -159,7 +156,7 @@ client.connect(function(err, client, done) {
 });*/
 
 //Here we INSERT our data to PostreSQL, WHITE database
-client.connect(function(err) {
+client.connect(function(err, client, done) {
    if (err) { 
      return console.error('could not connect to postgresq',err);
    }
@@ -171,19 +168,19 @@ client.connect(function(err) {
 	    //here we parse stocks.json
 	    obj = JSON.parse(data);	
 		var rData = {array:obj.array};
-		//console.log(obj.length);
+		console.log(obj.length);
 		//push stocks.json to database
    		for ( var i =1;i < obj.length; i++){
-  			var query = "INSERT INTO data (i,stockname,stockprice,stockchange,date) values ($1, $2, $3, $4,$5);"
+  			var query ="INSERT INTO data (id,stockname,stockprice,stockchange,date) VALUES ($1, $2, $3, $4,$5);"
   			//console.log (obj[i].stock,obj[i].price, obj[i].change, Date());
-   			client.query(query,[i,obj[i].stock,obj[i].price, obj[i].change, Date()], function(err, result) {
+   			client.query(query,[i,obj[i].stock,obj[i].price, obj[i].change, Date()],function(err, result) {
         	if (err) {
-            	return console.err("could not complete query", err);
+            	return console.log("could not complete query");
         	} 
         //client.end();
         
         
-//console.log("Data inserted sucsesfully!");
+console.log("Data inserted sucsesfully!");
    }
    )}
 };
