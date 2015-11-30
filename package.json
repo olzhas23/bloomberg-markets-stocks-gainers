@@ -1,5 +1,5 @@
 {
-  "name": "bloomberg",
+  "name": "bloomberg-app",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,6 @@
     "cookie-parser": "~1.3.3",
     "morgan": "~1.3.0",
     "debug": "~2.0.0",
-    "jade": "~1.6.0",
     "cheerio": "latest",
     "request": "latest",
     "mustache": "latest",
@@ -20,6 +19,6 @@
   },
   "main": "app.js",
   "devDependencies": {},
-  "author": "",
+  "author": "Olzhas Shaikenov",
   "license": "ISC"
 }
