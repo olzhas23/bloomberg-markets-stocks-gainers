@@ -15,7 +15,11 @@
     "cheerio": "latest",
     "request": "latest",
     "mustache": "latest",
-	"pg-copy-streams": "latest",
-	"pg": "latest"
-  }
+    "pg-copy-streams": "latest",
+    "pg": "latest"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }

@@ -13,111 +13,95 @@ var mustache = require('mustache');
 //Here we will get the data from bloomberg website
 
 router.get('/', function(req, res, next) {
-   url = 'http://www.bloomberg.com/markets/stocks/';
- 
+   url = 'http://www.bloomberg.com/quote/INDU:IND/members';
+   index = 'localhost:5000';
     request(url, function(error, response , html){
-    	
+//   	
         if(!error){
             var $ = cheerio.load(html);
-    	    
-    	    //object constructor
+        	parsed_stock_info = [];
+//
+			$('div.security-summary').each(function(i, element){
+			      //number of stocks is hardcoded needs to be fixed latter.
+			      var number_of_stocks = 29;
+			      for (j=1; j<=i; j++){
+			      var div = $(this).prev();
+			      var stock_price = div.children().children().children().eq(0).text();
+			      var stock_change = div.children().children().children().eq(1).text();
+			      var stock_per_change = div.children().children().children().eq(2).text();
+			      var stock_volume = div.children().children().children().eq(3).text();
+			      var stock_time = div.children().children().children().eq(4).text();
+			      var stock_name = div.children().next().text();
 
-    	    function stock(name, price, ticker,change){
-					this.Name=name;
-					this.Ticker=ticker;
-					this.Price = price;
-					this.Change=change;
-				};
+			      // Our parsed meta data object
+			      
+			      var metadata = {
+			        stock_name: stock_name,
+			        price: stock_price,
+			        change: stock_change,
+			        percent_change: stock_per_change,
+			        volume: stock_volume,
+			        time: stock_time
+			       	
+		      		};  
 
-			var a, b, c;
-			var i = 1;
-			var arr=[];
+		      		if (i=number_of_stocks){
+		      	  	//console.log(metadata,i);		
+		      	  	return parsed_stock_info.push(metadata);
+		      	  } 
+		      	  else
+		      	  {
+		      	  	console.log('parsed_stock_info is empty');
+		      	  }
+		      	  }
 
-            $('.dual_border_data_table.right_margin tr').filter(function(){
-                var data = $(this);    	
-    	        console.log('counter',i);
-    	        //function set buffer
-    	        //function to load data
-                load(data, i);
+		      	
+		      				
+			      
+			      
+			      
+			  }
+			  );
+			
+        	
 
-                i +=1; // counter
+        	write(parsed_stock_info);
 
-                //BEGIN
-                function load(file, counter){
-
-				
-				if (file.children().eq(0).text()=='Top Gainer' && file.children().eq(1).text() == 'Price' && file.children().eq(2).text() == '% Change' ){
-					console.log('Headers');
-
-				}
-				else if (file.children().eq(0).text()!=a && file.children().eq(1).text() != b && file.children().eq(2).text() != c){
-					a = file.children().eq(0).text();
-					
-					b = file.children().eq(1).text();
-					
-					c = file.children().eq(2).text();
-					
-					buffer(a,b,c, counter);
-
-				}
-				else
-				{
-					console.log('Null');
-				}
-
-               	}
-
-               	//END OF FUNCTION LOAD
-
-
-               	//BEGIN BUFFER
-               	
-
-				function buffer(a,b,c, counter) {
-					    // Do Stuff
-					    
-					    var obj = {stock: a, price: b, change: c};
-					    
-					    if (counter < 65){
-						
-					    				    
-					    arr.push(obj);
-					
-					}
-					    else {
-					    	write(arr);
-					    }
-				}
-				//END BUFFER ARRAY
+			
+//     
 
 
-				//BEGIN WRITE
-
+//here we are writing JSON file
 				function write(array){
 
-					var outputFilename = './public/data/stocks.json';
+					var outputFilename = 'stocks.json';
 
-					fs.writeFile(outputFilename, JSON.stringify(array, null, 4), function(err) {
+					fs.writeFile(outputFilename, JSON.stringify(array, null, 8), function(err) {
 					    if(err) {
 					      console.log(err);
 					    } else {
-					      console.log("JSON saved to " + outputFilename);
+					      console.log(outputFilename);
 					    }
 					}); 
-				}               	
+				} 
+				//res.send(index);
+			
 
-               	//END OF WRITE
+}
+})
+}
 
-            });                               
-            }
-});
-});
+);
+			      	
+//end of write
 
 
 
+
+//
 router.get('/:slug', function(req, res){
 
-	fs.readFile('./public/data/stocks.json', handleFile)
+	fs.readFile('stocks.json', handleFile)
 
 	// Write the callback function
 	function handleFile(err, data) {
@@ -132,6 +116,8 @@ router.get('/:slug', function(req, res){
 	}
 
 });
+//
+
 //here is our login info to postgress on Heroku, needs to be move to another file for better security, but it is ok for now
 var USER = "dtbufbkeqjknrs";
 var PW = "qbq1t6x-YbKofBaiGvPAzvvUbd";
@@ -139,7 +125,7 @@ var HOST = "ec2-54-204-35-132.compute-1.amazonaws.com";
 var DATABASE = "d8ivh0vd96kqa6";
 var PORT = 5432;
 
-var conString = "pg://" + USER + ":" + PW + "@" + HOST + ":" + PORT + "/"
+var conString = "postgres://" + USER + ":" + PW + "@" + HOST + ":" + PORT + "/"
     + DATABASE + "?ssl=true";
 var client = new pg.Client(conString);
 
@@ -147,16 +133,17 @@ var client = new pg.Client(conString);
 var copyFrom = require ('pg-copy-streams').from; 
 
 // Now you can start querying your database. Here is a sample. 
-/*
-client.connect(function(err, client, done) {
+
+/*pg.connect(function(err, client, done) {
   var stream = client.query(copyFrom('COPY data FROM STDIN'));
   var fileStream = fs.createReadStream('stocks.json');
   fileStream.on('error', done);
   fileStream.pipe(stream).on('finish', done).on('error', done);
-});*/
-
+});
+*/
 //Here we INSERT our data to PostreSQL, WHITE database
-client.connect(function(err, client, done) {
+
+/*client.connect(function(err, client, done) {
    if (err) { 
      return console.error('could not connect to postgresq',err);
    }
@@ -168,16 +155,18 @@ client.connect(function(err, client, done) {
 	    //here we parse stocks.json
 	    obj = JSON.parse(data);	
 		var rData = {array:obj.array};
-		console.log(obj.length);
+		console.log('obj.length',obj.length);
+		//console.log(obj);
 		//push stocks.json to database
    		for ( var i =1;i < obj.length; i++){
   			var query ="INSERT INTO data (id,stockname,stockprice,stockchange,date) VALUES ($1, $2, $3, $4,$5);"
   			//console.log (obj[i].stock,obj[i].price, obj[i].change, Date());
    			client.query(query,[i,obj[i].stock,obj[i].price, obj[i].change, Date()],function(err, result) {
         	if (err) {
-            	return console.log("could not complete query");
+            	return console.log("could not complete query, last step");
         	} 
         //client.end();
+
         
         
 console.log("Data inserted sucsesfully!");
@@ -187,7 +176,7 @@ console.log("Data inserted sucsesfully!");
 
 }
 
-)
+)*/
 
 
 module.exports = router;

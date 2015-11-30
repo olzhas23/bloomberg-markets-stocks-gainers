@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var mustache = require('mustache');
+//deleted mustache.js going to replace it with react.js, dont know yet
 
 
 var routes = require('./routes/index');
@@ -55,10 +55,12 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-
+var server = app.listen(process.env.PORT);
+            console.log ('running node on port 5000');
 
 //this is where we scrap the site for data
 
 
 
 module.exports = app;
+
